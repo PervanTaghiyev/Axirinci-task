@@ -1,0 +1,35 @@
+header{
+.container{
+    .header{
+        .header-left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3rem 0;
+           nav{
+            ul{
+            display: flex;
+            gap: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+               li{
+                a{
+                    color: #000;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+               }
+            }
+           }
+            h2{
+                span{
+                    color : #fe4c50;
+                }
+            }
+        }
+    }
+}
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+}
